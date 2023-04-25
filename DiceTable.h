@@ -28,10 +28,10 @@ public:
     [[maybe_unused]] unsigned long long ReachTargetWithXDice(int target, int dice);
 
 private:
-    // The table will be represented by a vector of vectors, each of which contain integer values.
+    // The table will be represented by a vector of vectors.
     std::vector<std::vector<unsigned long long>> DTable;
 
-    // Initialised in the constructor
+    // Initialised in the constructor.
     int TableHeight;
     int TableWidth;
 
